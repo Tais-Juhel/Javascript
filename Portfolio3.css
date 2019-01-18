@@ -1,0 +1,492 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+body{
+    background-color: #EBEBEB;
+    margin:0;
+}
+
+
+
+
+
+header{
+    overflow-y: visible;
+    background-image: url(nba3.jpg);
+    background-size: cover;
+    height: 790px;
+    text-align: center;
+    color: white;
+}
+header div:nth-child(2){
+    display: none;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header p{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 13px;
+}
+header h1{
+    line-height: 18px;
+    font-family: 'Muli', sans-serif;
+    font-size: 40px;
+    padding-top: 20px;
+    margin: 0;
+}
+header img{
+    width: 260px;
+    border-radius: 170px;
+    margin-top: 150px;
+}
+header a img{
+    position: absolute;
+    width: 30px;
+    margin-left: 113px;
+    margin-top: 370px;
+    background-color: white;
+    border: solid;
+    transition: opacity 0.6s, width 0.6s, margin 0.6s, background-color 0.6s;
+}
+header a img:hover{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 0;
+    opacity: 0.8;
+    width: 260px;
+    background-color: rgba(0,0,0,0);
+}
+header>div:last-child p::before{
+    content: "•";
+}
+header>div:last-child p{/*qulite*/
+    display: inline-block;
+    margin: 34px;
+    margin-top: 310px;
+    font-weight: bold;
+}
+header>div:last-child p::after{
+    content: "•";
+}
+header div:nth-child(2){
+    height: 305px;
+    position: relative;
+    width: 260px;
+    margin: auto;
+}
+
+
+
+
+
+
+main div:first-of-type img{
+    width: 60px;
+}
+main img:first-of-type{
+    width: 50px;
+}
+main h3{/*EXPERIENCE*/
+    padding-top: 40px;
+    font-family: 'Poiret One', cursive;
+    margin-left: auto;
+    margin-right: auto;
+}
+main #bio{
+    position: relative;
+    height: 790px;
+    background-color: beige;
+    margin-bottom: 0px;
+}
+main #bio div{/*text d'intro*/
+    font-family: 'Coming Soon', cursive;
+    text-align: center;
+    font-size: 20px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    line-height: 25px;
+}
+main #bio div:last-child{
+    position: absolute;
+    padding-top: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: orange;
+    font-weight: bold;
+    width: 100px;
+    height: 100px;
+    color: orange;
+    right: 0;
+    left: 0;
+    bottom: 50px;
+}
+main #bio div:last-child img{
+    margin-top: 10px;
+    transition: margin-top 0.2s;
+}
+main #bio div:last-child>img:hover{
+    margin-top: 30px;
+}
+main #bio div:last-child p{
+    position: absolute;
+    margin: 0;
+    width: 100%;
+}
+main #bio>div:last-child a img{
+    display: none;
+}
+main #profil{
+    background-color: orange;
+    padding-top: 1px;
+    color: white;
+    padding-bottom: 5px;
+}
+main #profil>div{
+    width: 540px;
+    margin: auto;
+}
+main a{
+    text-decoration: none;
+    text-align: center;
+}
+main #profil>div>a{
+    display: inline-block;
+    height: 225px;
+    width: 225px;
+    vertical-align: middle;
+    margin: 20px;
+}
+main #profil>div>a div{
+    color: white;
+    display: inline-block;
+    height: 220px;
+    width: 220px;
+    vertical-align: middle;
+    border: solid #FFD756;
+    transition: width 0.2s, height 0.2s, margin-top 0.2s;
+}
+main #profil>div>a div:first-child:hover{
+    background-color: #FFB64F;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+main #profil>div>a div:last-child:hover{
+    background-color: #FFB64F;
+    color: #EEEEEE;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+main #profil>div:first-child{
+    padding-top: 50px;
+}
+main #profil>div:last-child{
+    padding-bottom: 50px;
+}
+main #cursus img{
+    margin-top: 5px;
+}
+main #lois img{
+    width: 70px;
+}
+main #cv div div:first-of-type img{
+    width: 60px;
+}
+main #cv img:first-of-type{
+    width: 50px;
+}
+main #cv{
+    background-color: beige;
+}
+main #cv div:nth-child(2n+1){/*div experience*/
+    text-align: center;
+    padding: 70px;
+    padding-top: 40px;
+    padding-bottom: 0;
+}
+main #cv div:nth-child(2n+1) a img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 30px;
+    transition: transform 1s;
+}
+main #cv h3{/*EXPERIENCE*/
+    text-decoration: underline;
+    padding-top: 15px;
+    font-family: 'Poiret One', cursive;
+}
+main #cv p{/*block experience*/
+    font-family: 'Coming Soon', cursive;
+}
+main #cv li{/*liste*/
+    list-style-type: none;
+    margin-left: -13px;
+    font-family: 'Coming Soon', cursive;
+}
+main #cv li b:first-of-type{/*">" en gris*/
+    color: grey;
+}
+main #cv div:nth-child(2n+2){/*barre sous exp*/
+    border-top: solid;
+    border-top-color: lightgrey;
+    border-width: 1.5px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 1.5px;
+}
+main #diplP li:first-child{
+    font-weight: bold;
+}
+
+
+
+
+
+footer{
+    background-color: #EBEBEB;
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    background-image: url(nba3.jpg);
+    color: white;
+}
+footer input{
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    padding: 5px;
+    display: block;
+    margin: auto;
+    margin-bottom: 12px;
+    width: 90%;
+    height: 22px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+footer div{
+    margin:auto;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
+footer img{
+    width: 40px;
+    margin-top: 5px;
+}
+footer h3{
+    width: 248px;
+    height: 30px;
+    margin: auto;
+    font-size: 24px;
+}
+footer>div:nth-child(3)>a:nth-child(2) img{
+    margin: 0px 30px;
+}
+footer>div:first-child{
+    position: relative;
+    width: 250px;
+    height: 60px;
+    border: solid 1px white;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+}
+footer>div:first-child input{
+    position: absolute;
+    border-radius: 0px;
+    background-color: transparent;
+    color: white;
+    font-size: 22px;
+    width: 100%;
+    height: 40px;
+}
+footer>div:first-child img{
+    position: absolute;
+    width: 25px;
+    height: 15px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 6px;
+}
+footer form{
+    padding: 20px;
+    background: beige;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+footer textarea{
+    font-family: 'Poiret One', cursive;
+    padding: 5px;
+    font-weight: bold;
+    width: 70%;
+    height: 100px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+footer>div:nth-child(3){
+    width: 205px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: rgba(0,0,0,0.2);
+}
+footer>div:last-of-type p:last-of-type{
+    margin: auto;
+    color: white;
+    width: 65px;
+    font-size: 10px;
+    padding: 7px 0px;
+    letter-spacing: 0.8px;
+}
+
+
+
+@media(max-width: 768px){
+    header{
+        position: relative;
+        height: 42vh;
+    }
+    header>div:last-child{
+        position: absolute;
+        top: 15vh;
+        line-height: 30px;
+        width: 250px;
+        margin: auto;
+        right: 0;
+        left: 0;
+    }
+    header>div:last-child p::after{
+        content: "•";
+    }
+    header>div:last-child p{
+        margin: 0;
+        font-size: 12px;
+    }
+    header>div:last-child p::after{
+        content: none;
+    }
+    header>div:last-child p:last-child::after{
+        content: "•";
+    }
+    header>div:nth-child(3){
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        height: 40%;
+    }
+    header img{
+        position: absolute;
+        margin: auto;
+        right: 0;
+        left: 0;
+        z-index: 1;
+        width: 250px;
+    }
+    header a img{
+        display: none;
+    }
+    header>div:nth-child(2){
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+    }
+    header div:nth-child(2){
+        display: block;
+    }
+    header button{
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        padding: 0;
+        right: 0;
+        background-color: orange;
+        border: none;
+        z-index: 3;
+        outline: none;
+    }
+    header button img{
+        position: fixed;
+        top: 0;
+        margin-right: 0;
+        width: 60px;
+        padding: 0;
+    }
+    header div:nth-child(2) div{
+        display: none;
+        position: fixed;
+        z-index: 2;
+        padding-top: 60px;
+        width: 100%;
+        height: 100%;
+        background-color: orange;
+    }
+    header ul{
+        padding: 0;
+    }
+    header div:nth-child(2) li{
+        padding-top: 7vh;
+        width: 100%;
+        height: 10vh;
+        font-family: 'Poiret One', cursive;
+        list-style: none;
+        font-size: 27px;
+    }
+    header div:nth-child(2) li:last-child{
+        font-size: 16px;
+    }
+    
+    
+
+    
+    main #bio{
+        height: 58vh;
+    }
+    main #bio div:first-child{
+        padding-top: 140px;
+        width: 90%;
+        font-size: 100%;
+    }
+    main #bio img{
+        display: none;
+    }
+    main #bio div:last-child{
+        position: absolute;
+        background-color: orange;
+        width: 100%;
+        height: 10vh;
+        bottom: 0;
+    }
+    main #bio div:last-child  a img{
+        width: 21%;
+        display: block;
+        margin: auto;
+        width: 80px;
+    }
+    main #profil{
+        display: none;
+    }
+    main #cv{
+        padding-bottom: 10px;
+    }
+    main #cv a{
+        display: none;
+    }
+}
